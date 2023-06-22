@@ -15,7 +15,7 @@ export default function Page() {
   const [selectedYear, setSelectedYear] = useState(currentDate.getFullYear());
 
   return (
-    <main className='px-40 pb-40'>
+    <main className='p-4 md:px-40 md:pb-40'>
       {userData ? (
         <>
           <RangePicker selectedMonth={selectedMonth} setSelectedMonth={setSelectedMonth} selectedYear={selectedYear} setSelectedYear={setSelectedYear}/>
